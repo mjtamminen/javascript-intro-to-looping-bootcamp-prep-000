@@ -17,8 +17,14 @@ function whileLoop(n) {
 }  
 
 function doWhileLoop(array) {
+  var i = 0;
+  
   function incrementVariable() {
-  array.length > 0 && incrementVariable();
+  i = i + 1;
 }
+do {
+  array.pop;
+  incrementVariable();
+} while (i < 5);
 return array
 }  
